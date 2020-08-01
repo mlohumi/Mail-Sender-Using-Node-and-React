@@ -1,0 +1,23 @@
+{
+  "name": "vendor-onboard",
+  "version": "1.0.0",
+  "description": "Vincular Onboarding Form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "backend": "nodemon index.js"
+  },
+  "author": "Mukesh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "classnames": "^2.2.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
