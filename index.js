@@ -8,9 +8,9 @@ const { response } = require("express");
 
 const app = express();
 
-// app.get("/", (req, res) => {
-//   res.send({ hello: "Mukesh" });
-// });
+app.get("/", (req, res) => {
+  res.send({ hello: "Mukesh" });
+});
 
 router.post("/test", (req, res, next) => {
   var response = req.body;

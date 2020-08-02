@@ -46,7 +46,8 @@ export default class App extends Component {
 
     axios({
       method: "POST",
-      url: "http://localhost:5000/send",
+      // url: "http://localhost:5000/send",
+      url: "/send",
       data: this.state,
       // headers: {
       //   "content-type": "multipart/form-data",
