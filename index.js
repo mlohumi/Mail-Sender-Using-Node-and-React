@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 var router = express.Router();
 var nodemailer = require("nodemailer");
 var cors = require("cors");
-const creds = require("./config");
+const creds = require("./config/config");
 const { response } = require("express");
 
 const app = express();
