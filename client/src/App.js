@@ -54,7 +54,7 @@ export default class App extends Component {
     }).then((response) => {
       if (response.data.status === "success") {
         console.log(response);
-        alert("Message Sent.");
+        alert("Your form has been submitted successfully");
         this.resetForm();
       } else if (response.data.status === "fail") {
         alert("Message failed to send.");
