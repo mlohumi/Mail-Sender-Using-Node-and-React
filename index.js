@@ -37,6 +37,7 @@ transporter.verify((error, success) => {
 });
 
 router.post("/send", (req, res, next) => {
+  console.log("Mukesh Lohumi");
   var content = ``;
   var attachs = [];
   var names = [
