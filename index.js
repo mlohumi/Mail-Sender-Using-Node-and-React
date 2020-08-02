@@ -19,7 +19,7 @@ router.post("/test", (req, res, next) => {
 });
 var transport = {
   host: "smtp.gmail.com",
-  port: 587,
+  port: 465,
   auth: {
     user: creds.USERNAME,
     pass: creds.PASSWORD,
