@@ -22,7 +22,7 @@ export default function Header() {
       </nav>
       <nav className="navbar navbar-light bg-light">
         <div className="navbar-brand">
-          <img
+          {/* <img
             src={
               "http://vincular.thefrend.com/wp-content/uploads/2020/02/new-vin-logo.png"
             }
@@ -30,7 +30,7 @@ export default function Header() {
             height="70"
             className="d-inline-block align-top"
             alt=""
-          />
+          /> */}
         </div>
       </nav>
     </div>
